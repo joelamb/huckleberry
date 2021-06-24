@@ -9,57 +9,59 @@ body {
   padding: 0;
 }
 
+html {
+  font-size: 1.25rem;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
 header {
-  border-bottom: solid gray 4px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
 }
 
 main {
-  background-color: rgb(153,153,153);
-  height: 100%;
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 96px 24px;
 }
 
 .intro-chunk {
-  margin: auto;
-  max-width: 50%;
-  padding: 0 20px;
+  max-width: 400px;
 }
 
-header p {
-  margin: 2rem 0;
-}
-
-strong {
-  color: green;
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
 }
 
 .title {
   font-size: 1.25rem;
-  margin-top: 4rem;
-}
-
-.max-width-wrapper {
-  padding-top: 2rem;
 }
 
 .card {
   background-color: white;
-  border-bottom: 4px solid rgb(102,102,102);
-  margin: auto;
-  max-width: 50%;
-  padding-top: 5px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  margin: 0 -24px;
+  padding: 24px;
 }
 
-.card h2 {
-  background-color: rgb(246,194,67);
-  font-size: 1rem;
-  padding: 10px 30px;
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
   border-bottom: 4px solid rgb(197, 154,	51);
-  margin: 0 20px 0 -10px;
+  font-size: 0.85rem;
+  margin: -16px 0 0 -32px;
+  padding: 8px 32px;
   width: -moz-fit-content;
   width: fit-content;
 }
 
 .card p {
   font-size: 0.85rem;
-  margin: 20px;
+  line-height: 1.4;
 }
